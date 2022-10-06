@@ -12,6 +12,7 @@ public class ExampleTest
     {
         // Use the Assert class to test conditions
         Assert.That(1 == 2);
+        
     }
 
     // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
