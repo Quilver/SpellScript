@@ -22,8 +22,8 @@
 #idea
 .idea/
 
-#search settings
-UserSettings/Search.settings
+#User settings
+UserSettings/
 
 # Visual Studio cache directory
 .vs/
