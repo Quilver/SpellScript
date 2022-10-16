@@ -1,0 +1,28 @@
+using System.Collections;
+using System.Collections.Generic;
+
+using UnityEngine;
+namespace Operators
+{
+    public class Exponent : OperatorClass
+    {
+        public override string GetToken()
+        {
+            return "**";
+        }
+        public override int GetPriority()
+        {
+            return 1;
+        }
+        public override typeClass Binary(typeClass argument1, typeClass argument2)
+        {
+            Debug.Log("Exponent undeveloped");
+            if (argument1.pointer == ReturnType.Number && argument1.pointer == ReturnType.Number)
+            {
+                
+                return new typeClass((argument1.number * argument2.number));
+            }
+            return new typeClass();
+        }
+    }
+}
